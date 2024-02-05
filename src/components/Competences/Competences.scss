@@ -1,0 +1,20 @@
+.competences {
+  color: #d3d3d3;
+  padding: 100px 0;
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 0;
+  }
+  .logos {
+    display: flex;
+    color: #000;
+    gap: 15px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}

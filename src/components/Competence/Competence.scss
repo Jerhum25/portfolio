@@ -1,0 +1,20 @@
+.competence {
+  background: #d3d3d3;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #d3d3d3;
+  &:hover {
+    box-shadow: 0 0 10px #d3d3d3;
+    transform: scale(0.99);
+  }
+  img {
+    width: 80%;
+    height: 100px;
+    object-fit: contain;
+  }
+}
