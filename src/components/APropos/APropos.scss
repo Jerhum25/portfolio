@@ -20,6 +20,22 @@
       width: 40%;
       line-height: 25px;
       font-size: 18px;
+      text-align: justify;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aPropos {
+    .description {
+      flex-direction: column;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      p {
+        width: 95%;
+      }
     }
   }
 }

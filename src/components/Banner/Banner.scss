@@ -34,3 +34,16 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .banner {
+    .infosBanner {
+      h2 {
+        font-size: 35px;
+      }
+      h3 {
+        font-size: 25px;
+      }
+    }
+  }
+}

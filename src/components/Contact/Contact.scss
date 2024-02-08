@@ -69,3 +69,21 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .contact {
+    width: 98%;
+    .coordonnees {
+      flex-direction: column;
+      form {
+        width: 100%;
+      }
+      .mesCoordonnees {
+        margin-top: 20px;
+        a {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
