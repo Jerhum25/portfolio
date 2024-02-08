@@ -23,7 +23,7 @@ function Portfolio(props) {
           src="./images/portfolio ohmyfood.png"
           titre="Ohmyfood"
           description="Dynamisez une page web avec des animations CSS."
-          lien="https://jerhum25.github.io/ohmyfood/"
+          lien="https://ohmyfood-react-e9t05xky1-jerhum25.vercel.app"
         />
         <CardPortfolio
           src="./images/portfolio kasa.png"
