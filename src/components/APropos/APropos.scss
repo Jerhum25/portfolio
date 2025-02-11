@@ -1,7 +1,7 @@
 .aPropos {
   background: #000;
   width: 100%;
-  padding: 100px 0;
+  padding: 120px 0;
   h2 {
     color: #d3d3d3;
     text-align: center;
@@ -27,11 +27,13 @@
 
 @media screen and (max-width: 768px) {
   .aPropos {
+    padding: 60px 0;
     .description {
       flex-direction: column;
       img {
         width: 100%;
         height: auto;
+        padding: 0 10px 40px 10px;
       }
       p {
         width: 95%;

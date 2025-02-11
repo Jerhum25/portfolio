@@ -8,6 +8,8 @@
   justify-content: space-around;
   border-radius: 15px;
   box-shadow: 0 0 5px #d3d3d3;
+
+  transition: 0.2s ease-in-out;
   &:hover {
     box-shadow: 0 0 10px #d3d3d3;
     transform: scale(0.99);

@@ -16,5 +16,27 @@
     gap: 15px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    animation: monAnimation ease-in-out auto both;
+    animation-timeline: view();
+    animation-range: 0% 50%;
+  }
+  @keyframes monAnimation {
+    0% {
+      opacity: 0;
+      translate: -100%;
+    }
+    100% {
+      opacity: 1;
+      translate: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .competences {
+    padding: 50px 10px;
+    .logos {
+      animation: none;
+    }
   }
 }

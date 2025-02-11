@@ -26,12 +26,41 @@
       font-size: 50px;
       font-weight: 500;
       margin-bottom: 25px;
+      animation: MonAnimationNom ease-in-out both 1s;
     }
     h3 {
       font-size: 40px;
       font-style: italic;
       font-family: "Marck Script";
+      animation: MonAnimationFonction ease-in-out both 1s 0.5s;
     }
+  }
+}
+
+@keyframes MonAnimationNom {
+  0% {
+    opacity: 0;
+    font-size: 0;
+  }
+  50% {
+    font-size: 70px;
+  }
+  100% {
+    opacity: 1;
+    font-size: 50px;
+  }
+}
+@keyframes MonAnimationFonction {
+  0% {
+    opacity: 0;
+    font-size: 0;
+  }
+  50% {
+    font-size: 60px;
+  }
+  100% {
+    opacity: 1;
+    font-size: 40px;
   }
 }
 
@@ -40,9 +69,11 @@
     .infosBanner {
       h2 {
         font-size: 35px;
+        animation: none;
       }
       h3 {
         font-size: 22px;
+        animation: none;
       }
     }
   }

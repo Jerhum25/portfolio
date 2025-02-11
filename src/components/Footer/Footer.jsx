@@ -5,7 +5,7 @@ function Footer(props) {
   return (
     <div className="footer">
       <hr />
-      <p>&copy; Copyright 2024 - Jérôme Humbert - Tous droits réservés</p>
+      <p>&copy; Copyright 2024 - JHdev - Tous droits réservés</p>
     </div>
   );
 }

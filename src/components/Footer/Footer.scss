@@ -8,3 +8,11 @@
     border-color: rgba($color: #d3d3d3, $alpha: 0.4);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    p {
+      font-size: 14px;
+    }
+  }
+}

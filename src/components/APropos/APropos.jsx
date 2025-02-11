@@ -8,7 +8,7 @@ function APropos(props) {
       <div className="description">
         <img src="./images/profil.jpg" alt="profil" />
         <p>
-          Hey ! Moi c'est Jérôme, 42 ans,
+          Hey ! Moi c'est Jérôme, 43 ans,
           <br />
           facteur à la poste depuis plus de 20 ans, j'ai pu développer le sens
           du travail en équipe mais aussi de l'autonomie. J'ai également appris
