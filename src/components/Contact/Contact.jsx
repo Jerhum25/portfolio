@@ -19,7 +19,7 @@ function Contact(props) {
 
         <div className="mesCoordonnees">
           <a href="mailto:contact@jhdev.fr">
-            <i className="far fa-envelope"></i> jerhum@msn.com
+            <i className="far fa-envelope"></i> contact@jhdev.fr
           </a>
           <a href="tel:0673585639">
             <i className="fas fa-phone"></i> 06 73 58 56 39
