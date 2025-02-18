@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import "./Contact.scss";
 
 function Contact(props) {
@@ -18,7 +18,7 @@ function Contact(props) {
         </form> */}
 
         <div className="mesCoordonnees">
-          <a href="mailto:jerhum@msn.com">
+          <a href="mailto:contact@jhdev.fr">
             <i className="far fa-envelope"></i> jerhum@msn.com
           </a>
           <a href="tel:0673585639">
