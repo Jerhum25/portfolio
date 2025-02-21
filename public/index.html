@@ -1,21 +1,84 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6MZW9LHFD0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6MZW9LHFD0");
+    </script>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="./favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <!-- Open Graph (Facebook, LinkedIn) -->
     <meta
-      name="description"
-      content="Portfolio Jérôme Humbert développeur web front-end"
+      property="og:title"
+      content="Jérôme Humbert – Développeur Frontend React"
     />
+    <meta
+      property="og:description"
+      content="Développeur frontend React à Besançon. Découvrez mon parcours, mes compétences et mes projets."
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/preview.jpg" />
+    <meta property="og:url" content="https://jhdev.fr" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Jérôme Humbert – Développeur Frontend React"
+    />
+    <meta
+      name="twitter:description"
+      content="Développeur frontend React à Besançon. Découvrez mon parcours, mes compétences et mes projets."
+    />
+    <meta name="twitter:image" content="%PUBLIC_URL%/preview.jpg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jérôme Humbert",
+        "jobTitle": "Développeur Frontend React",
+        "url": "https://jhdev.fr",
+        "sameAs": [
+          "https://www.linkedin.com/in/jérôme-humbert-780324229",
+          "https://github.com/Jerhum25"
+        ]
+      }
+    </script>
+
     <script
+      defer
       src="https://kit.fontawesome.com/279d0d4073.js"
       crossorigin="anonymous"
     ></script>
-    <title>JH Dev</title>
+    <title>Jérôme Humbert – Développeur Frontend React | Portfolio</title>
+    <meta
+      name="description"
+      content="Intégrateur et développeur frontend React à Besançon. Découvrez mon parcours, mes compétences et mes projets sur mon portfolio."
+    />
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PTP64BNV"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
   </body>
 </html>

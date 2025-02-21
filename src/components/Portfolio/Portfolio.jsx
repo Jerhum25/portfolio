@@ -8,19 +8,19 @@ function Portfolio(props) {
       <h2>Portfolio</h2>
       <div className="cards">
         <CardPortfolio
-          src="./images/portfolio booki.png"
+          src="./images/portfolio booki.webp"
           titre="Booki"
           description="Transformer une maquette en site web."
           lien="https://jerhum25.github.io/P2_booki/"
         />
         <CardPortfolio
-          src="./images/portfolio ohmyfood.png"
+          src="./images/portfolio ohmyfood.webp"
           titre="Ohmyfood"
           description="Dynamisez une page web avec des animations CSS."
           lien="https://ohmyfood-react-jerhum25s-projects.vercel.app/"
         />
         <CardPortfolio
-          src="./images/portfolio kasa.png"
+          src="./images/portfolio kasa.webp"
           titre="Kasa"
           description="Créer une application web avec React."
           lien="https://kasa-henna.vercel.app/"

@@ -10,29 +10,29 @@ function Header(props) {
   return (
     <div className="header">
       <a href="#accueil" className="logo">
-        <img src="./images/Mon logo noir.png" alt="logo" />
-        <h1>dev front-end</h1>
+        <img src="./images/Mon logo noir.webp" alt="logo" />
+        <span>dev front-end</span>
       </a>
       <div className="burgerMenu" onClick={toggleMenu}>
         <div className={burgerMenu ? "lineOpen" : "line"}></div>
       </div>
       <nav className={burgerMenu ? "mobile" : "nav"}>
         <ul>
-          <a href="#accueil" onClick={toggleMenu}>
-            <li>accueil</li>
-          </a>
-          <a href="#profil" onClick={toggleMenu}>
-            <li>mon profil</li>
-          </a>
-          <a href="#competences" onClick={toggleMenu}>
-            <li>mes compétences</li>
-          </a>
-          <a href="#portfolio" onClick={toggleMenu}>
-            <li>portfolio</li>
-          </a>
-          <a href="#contact" onClick={toggleMenu}>
-            <li>contact</li>
-          </a>
+          <li  onClick={toggleMenu}>
+            <a href="#accueil">accueil</a>
+          </li>
+          <li  onClick={toggleMenu}>
+            <a href="#profil">mon profil</a>
+          </li>
+          <li  onClick={toggleMenu}>
+            <a href="#competences">mes compétences</a>
+          </li>
+          <li  onClick={toggleMenu}>
+            <a href="#portfolio">portfolio</a>
+          </li>
+          <li  onClick={toggleMenu}>
+            <a href="#contact">contact</a>
+          </li>
         </ul>
       </nav>
     </div>

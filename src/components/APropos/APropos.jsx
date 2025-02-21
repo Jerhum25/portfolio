@@ -6,26 +6,28 @@ function APropos(props) {
     <div className="aPropos" id="profil">
       <h2>A propos de moi</h2>
       <div className="description">
-        <img src="./images/profil.jpg" alt="profil" />
+        <img src="./images/profil.webp" alt="profil" />
         <p>
-          Hey ! Moi c'est Jérôme, 43 ans,
-          <br />
-          facteur à la poste depuis plus de 20 ans, j'ai pu développer le sens
-          du travail en équipe mais aussi de l'autonomie. J'ai également appris
-          à écouter les clients et su gérer les conflits pour leur apporter des
-          solutions aux problèmes qu'ils pouvaient rencontrer. Mes plus grandes
-          qualités sont la patience et la persévérence.
+          De facteur à développeur web : un parcours guidé par la rigueur et la
+          passion
           <br />
           <br />
-          Aujourd'hui, je pense avoir fait le tour de mon métier et suis en
-          reconversion dans le monde du développement web.
+          Après 23 ans en tant que facteur à La Poste, j’ai développé des
+          qualités essentielles : rigueur, organisation, autonomie et sens du
+          service. Ces compétences, alliées à ma passion pour le numérique,
+          m'ont poussé à me reconvertir dans le développement web.
           <br />
           <br />
-          Après un an de formation sur OpenClassrooms, plateforme de formation
-          en ligne avec le soutien d'un mentor, j'ai pu acquérir des bases dans
-          le domaine du développement.
+          J’ai suivi une formation diplômante sur OpenClassrooms, où j’ai acquis
+          des compétences en HTML, CSS, JavaScript, React JS, Node.js et
+          MongoDB. Aujourd’hui, je mets cette expertise au service de projets
+          web modernes, avec une attention particulière aux détails, à
+          l’accessibilité et à l’expérience utilisateur.
           <br />
-          Je continue d'apprendre chaque jour pour enrichir mes connaissances.
+          <br />
+          Mon objectif ? Concevoir des interfaces fluides et intuitives, en
+          mettant ma rigueur et ma capacité d’adaptation au service du
+          développement frontend.
         </p>
       </div>
     </div>

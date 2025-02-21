@@ -24,11 +24,13 @@
       border-radius: 50%;
       margin-left: -2px;
     }
-    h1 {
+    span {
       font-family: "Marck Script";
       color: #d3d3d3;
       margin-left: 25px;
       margin-right: 25px;
+      font-size: 32px;
+      font-weight: bold;
     }
   }
   .burgerMenu {
@@ -69,24 +71,23 @@
   nav {
     ul {
       display: flex;
-      a {
+      li {
+        position: relative;
+        list-style-type: none;
         &:not(:last-child) {
           margin-right: 20px;
         }
-        text-decoration: none;
-        position: relative;
         &:hover {
-          color: #d3d3d3;
           transition: 1s;
-          li {
+          a {
             &::after {
               width: 100%;
               transition: 0.4s;
             }
           }
         }
-        li {
-          list-style-type: none;
+        a {
+          text-decoration: none;
           color: #f3f3f3;
           font-size: 20px;
           text-transform: capitalize;
@@ -125,7 +126,7 @@
         border-radius: 50%;
         margin-left: -2px;
       }
-      h1 {
+      span {
         font-family: "Marck Script";
         color: #d3d3d3;
         margin-left: 10px;
@@ -186,12 +187,12 @@
         align-items: center;
         justify-content: center;
 
-        a {
+        li {
           &:not(:last-child) {
             margin-right: 0px;
             margin-bottom: 25px;
           }
-          li {
+          a {
             font-size: 25px;
           }
         }

@@ -36,7 +36,7 @@ function Contact(props) {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="./images/logo linkedin.png" alt="logo linkedin" />
+            <img src="./images/logo linkedin.webp" alt="logo linkedin" />
           </a>
         </div>
       </div>

@@ -12,13 +12,13 @@ function Competences(props) {
         collaboration...
       </p>
       <div className="logos">
-        <Competence src="./images/logo html5.png" titre="HTML5" />
-        <Competence src="./images/logo css3.png" titre="CSS3" />
-        <Competence src="./images/logo javascript.png" titre="JAVASCRIPT" />
-        <Competence src="./images/logo react.png" titre="REACT JS" />
-        <Competence src="./images/logo nodejs.png" titre="NODE JS" />
-        <Competence src="./images/logo mongodb.png" titre="MONGO DB" />
-        <Competence src="./images/logo github.png" titre="GITHUB" />
+        <Competence src="./images/logo html5.webp" titre="HTML5" />
+        <Competence src="./images/logo css3.webp" titre="CSS3" />
+        <Competence src="./images/logo javascript.webp" titre="JAVASCRIPT" />
+        <Competence src="./images/logo react.webp" titre="REACT JS" />
+        <Competence src="./images/logo nodejs.webp" titre="NODE JS" />
+        <Competence src="./images/logo mongodb.webp" titre="MONGO DB" />
+        <Competence src="./images/logo github.webp" titre="GITHUB" />
       </div>
     </div>
   );
