@@ -1,4 +1,3 @@
-import React from "react";
 import Competence from "../Competence/Competence";
 import "./Competences.scss";
 
@@ -6,10 +5,13 @@ function Competences(props) {
   return (
     <div className="competences" id="competences">
       <h2>Mes compétences</h2>
-      <p>
+      {/* <p>
         Au cours de mon apprentissage, j'ai découvert des languages de
         programation, framework, base de données en ligne, service de
         collaboration...
+      </p> */}
+      <p>
+        Au fil de ma formation et de mes projets, j’ai développé une solide maîtrise des technologies web essentielles pour concevoir des interfaces modernes et performantes.
       </p>
       <div className="logos">
         <Competence src="./images/logo html5.webp" titre="HTML5" />

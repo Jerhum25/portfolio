@@ -7,20 +7,29 @@
     text-align: center;
     font-size: 30px;
   }
+
   .description {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    img {
-      height: 300px;
+    .profileImage {
+      width: 40%;
+      img {
+        height: 300px;
+      }
     }
-    p {
+    .text {
+      display: flex;
+      flex-direction: column;
       color: #d3d3d3;
       width: 40%;
-      line-height: 25px;
-      font-size: 18px;
-      text-align: justify;
+      p {
+        // width: 40%;
+        line-height: 25px;
+        font-size: 18px;
+        text-align: justify;
+      }
     }
   }
 }
@@ -30,12 +39,15 @@
     padding: 60px 0;
     .description {
       flex-direction: column;
-      img {
+      .profileImage {
         width: 100%;
-        height: auto;
-        padding: 0 10px 40px 10px;
+        img {
+          width: 100%;
+          height: auto;
+          padding: 0 10px 40px 10px;
+        }
       }
-      p {
+      .text {
         width: 95%;
       }
     }

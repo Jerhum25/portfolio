@@ -6,7 +6,7 @@ function Banner(props) {
     <div className="banner" id="accueil">
       <div className="blur"></div>
       <div className="infosBanner">
-        <h1>Jérôme Humbert <p>Développeur front-end - Intégrateur</p></h1>
+        <h1>Jérôme Humbert <span>Développeur web front-end - Intégrateur<br/>à Besançon</span></h1>
       </div>
     </div>
   );

@@ -1,11 +1,19 @@
 .portfolio {
   padding: 100px 0 80px 0;
+  color: #d3d3d3;
   h2 {
-    color: #d3d3d3;
     font-size: 30px;
     text-align: center;
     margin-bottom: 25px;
   }
+  p {
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 0;
+    padding-inline: 30px;
+    text-align: justify;
+  }
+
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -17,5 +25,9 @@
 @media screen and (max-width: 768px) {
   .portfolio {
     padding: 60px 10px;
+    p{
+      width: 100%;
+      padding-inline: 0;
+    }
   }
 }
