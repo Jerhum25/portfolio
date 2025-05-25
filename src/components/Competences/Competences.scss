@@ -7,8 +7,9 @@
   }
   p {
     font-size: 18px;
-    text-align: center;
-    margin: 25px 0;text-align: justify;
+    text-align: justify;
+    margin: 25px 0;
+    text-align-last: center;
   }
   .logos {
     display: flex;
@@ -37,6 +38,9 @@
     padding: 50px 10px;
     .logos {
       animation: none;
+    }
+    p{
+      text-align-last: left;
     }
   }
 }
