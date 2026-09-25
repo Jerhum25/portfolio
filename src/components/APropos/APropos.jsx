@@ -77,7 +77,7 @@ function APropos(props) {
           </p> */}
           <p>
             Je suis <b>Jérôme Humbert, développeur web frontend basé à
-            Besançon.</b> Après 24 années d’expérience à La Poste, j’ai choisi de
+            Besançon.</b> Après {years} années d’expérience à La Poste, j’ai choisi de
             mettre ma rigueur, mon autonomie et mon sens du service au cœur d’un
             nouveau projet : <b>concevoir des sites web modernes et efficaces
             pour les professionnels.</b>
