@@ -14,10 +14,12 @@ function Competences(props) {
         Au fil de ma formation et de mes projets, j’ai développé une solide maîtrise des technologies web essentielles pour concevoir des interfaces modernes et performantes.
       </p>
       <div className="logos">
-        <Competence src="./images/logo html5.webp" titre="HTML5" />
+        {/* <Competence src="./images/logo html5.webp" titre="HTML5" />
         <Competence src="./images/logo css3.webp" titre="CSS3" />
-        <Competence src="./images/logo javascript.webp" titre="JAVASCRIPT" />
+        <Competence src="./images/logo javascript.webp" titre="JAVASCRIPT" /> */}
         <Competence src="./images/logo react.webp" titre="REACT JS" />
+        <Competence src="./images/logo nextjs.webp" titre="NEXT JS" />
+        <Competence src="./images/logo tailwindcss.webp" titre="TAILWIND CSS" />
         <Competence src="./images/logo nodejs.webp" titre="NODE JS" />
         <Competence src="./images/logo mongodb.webp" titre="MONGO DB" />
         <Competence src="./images/logo github.webp" titre="GITHUB" />
