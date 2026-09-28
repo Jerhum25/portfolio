@@ -4,16 +4,12 @@ function APropos(props) {
   const beginDate = new Date("2001-12-17");
   const actualYear = new Date();
   let years = actualYear.getFullYear() - beginDate.getFullYear();
-  console.log(beginDate);
-  console.log(actualYear);
-
   const moisDiff = actualYear.getMonth() - beginDate.getMonth();
   const jourDiff = actualYear.getDate() - beginDate.getDate();
 
   if (moisDiff < 0 || (moisDiff === 0 && jourDiff < 0)) {
     years--;
   }
-  console.log(years);
 
   return (
     <div className="aPropos" id="profil">
@@ -76,25 +72,33 @@ function APropos(props) {
             engagement, réactivité et exigence.
           </p> */}
           <p>
-            Je suis <b>Jérôme Humbert, développeur web frontend basé à
-            Besançon.</b> Après {years} années d’expérience à La Poste, j’ai choisi de
-            mettre ma rigueur, mon autonomie et mon sens du service au cœur d’un
-            nouveau projet : <b>concevoir des sites web modernes et efficaces
-            pour les professionnels.</b>
+            Je suis{" "}
+            <b>Jérôme Humbert, développeur web frontend basé à Besançon.</b>{" "}
+            Après {years} années d’expérience à La Poste, j’ai choisi de mettre
+            ma rigueur, mon autonomie et mon sens du service au cœur d’un
+            nouveau projet :{" "}
+            <b>
+              concevoir des sites web modernes et efficaces pour les
+              professionnels.
+            </b>
             <br />
             <br />
-            Je développe des sites <b>rapides, responsives et pensés pour être
-            visibles sur Google</b>, en utilisant des technologies modernes comme
+            Je développe des sites{" "}
+            <b>rapides, responsives et pensés pour être visibles sur Google</b>,
+            en utilisant des technologies modernes comme{" "}
             <b>React, Next.js et Tailwind CSS</b>. Chaque projet est conçu pour
             offrir une expérience agréable sur ordinateur, tablette comme sur
             mobile.
             <br />
             <br />
             Formé au développement web sur OpenClassrooms, je porte une
-            attention particulière à <b>l’expérience utilisateur, aux
-            performances, au référencement naturel (SEO) et à la qualité du
-            code</b>. Mon approche reste simple : comprendre votre activité, vos
-            besoins et vos objectifs pour construire un site qui vous ressemble.
+            attention particulière à{" "}
+            <b>
+              l’expérience utilisateur, aux performances, au référencement
+              naturel (SEO) et à la qualité du code
+            </b>
+            . Mon approche reste simple : comprendre votre activité, vos besoins
+            et vos objectifs pour construire un site qui vous ressemble.
             <br />
             <br />
             <b>Artisan, indépendant, entrepreneur ou association</b>, vous avez

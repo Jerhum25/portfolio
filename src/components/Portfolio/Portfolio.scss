@@ -10,7 +10,6 @@
     font-size: 18px;
     margin: 25px 0;
     padding-inline: 30px;
-    text-align: justify;
   }
 
   .cards {
@@ -18,6 +17,9 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-evenly;
+    p{
+      padding-inline: 10px;
+    }
   }
 }
 

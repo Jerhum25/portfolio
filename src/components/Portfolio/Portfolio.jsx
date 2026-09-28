@@ -6,29 +6,25 @@ function Portfolio(props) {
   return (
     <div className="portfolio" id="portfolio">
       <h2>Portfolio</h2>
-      <p>Découvrez une sélection de projets réalisés dans le cadre de ma formation et de missions personnelles. Chaque site ou application présentée a été conçue avec soin, dans le respect des bonnes pratiques du développement frontend : responsive design, accessibilité, performance et expérience utilisateur.
-
-Ces projets illustrent ma maîtrise des technologies telles que React JS, JavaScript, HTML/CSS, ainsi que l’utilisation d’outils comme Git ou GitHub pour la gestion de code.
-
-Mon objectif : proposer des solutions web modernes, efficaces et adaptées aux besoins réels de mes clients.</p>
+      <p>Découvrez une sélection de sites et applications que j'ai conçus et développés. Chaque projet met en avant une approche centrée sur la performance, le responsive design, l'expérience utilisateur et la qualité du code.</p>
       <div className="cards">
         <CardPortfolio
-          src="./images/portfolio booki.webp"
-          titre="Booki"
-          description="Transformer une maquette en site web."
-          lien="https://jerhum25.github.io/P2_booki/"
+          src="./images/portfolio vert nature.png"
+          titre="Vert & Nature"
+          description="Site vitrine pour une entreprise locale."
+          lien="https://vert-nature.vercel.app/"
         />
         <CardPortfolio
-          src="./images/portfolio ohmyfood.webp"
-          titre="Ohmyfood"
-          description="Dynamisez une page web avec des animations CSS."
-          lien="https://ohmyfood-react-jerhum25s-projects.vercel.app/"
+          src="./images/portfolio martin elec.png"
+          titre="Martin électricité"
+          description="Site vitrine pour un artisan électricien."
+          lien="https://martin-elec.vercel.app"
         />
         <CardPortfolio
-          src="./images/portfolio kasa.webp"
-          titre="Kasa"
-          description="Créer une application web avec React."
-          lien="https://kasa-henna.vercel.app/"
+          src="./images/portfolio reflexe secours.png"
+          titre="Réflexe Secours"
+          description="Site web pour une association de secourisme"
+          lien="https://reflexe-secours.vercel.app/"
         />
       </div>
     </div>

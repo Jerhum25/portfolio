@@ -9,6 +9,7 @@
   padding: 10px;
   border-radius: 15px;
   box-shadow: 0 0 8px #d3d3d3;
+  text-decoration: none;
 
   animation: monAnimationCard ease-in-out auto both;
   animation-timeline: view();
@@ -23,9 +24,9 @@
   h3 {
     font-size: 20px;
   }
-  p {
-    text-align: center;
+  >p {
     font-style: italic;
+padding-inline: 20px;    
   }
 }
 @keyframes monAnimationCard {

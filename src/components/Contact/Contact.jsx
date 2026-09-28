@@ -1,10 +1,14 @@
-﻿import React from "react";
-import "./Contact.scss";
+﻿import "./Contact.scss";
 
 function Contact(props) {
   return (
     <div className="contact" id="contact">
-      <h2>Contactez moi</h2>
+      <h2>Vous avez un projet web ?</h2>
+      <p>
+        Création ou refonte de site vitrine pour artisans, indépendants,
+        entrepreneurs et associations.
+      </p>
+      <h3>Parlons de votre projet →</h3>
       <div className="coordonnees">
         {/* <form className="formulaire">
           <input type="text" className="nom" placeholder="Nom*" />
