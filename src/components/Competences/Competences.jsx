@@ -10,9 +10,10 @@ function Competences(props) {
         programation, framework, base de données en ligne, service de
         collaboration...
       </p> */}
-      <p>
+      {/* <p>
         Au fil de ma formation et de mes projets, j’ai développé une solide maîtrise des technologies web essentielles pour concevoir des interfaces modernes et performantes.
-      </p>
+      </p> */}
+      <p>Au fil de mes projets, j’ai développé une solide maîtrise des technologies web essentielles pour concevoir des interfaces modernes, performantes et adaptées à tous les supports.</p>
       <div className="logos">
         <Competence src="./images/logo html5.webp" titre="HTML5" />
         <Competence src="./images/logo css3.webp" titre="CSS3" />
