@@ -104,7 +104,7 @@ function APropos(props) {
             <b>Artisan, indépendant, entrepreneur ou association</b>, vous avez
             besoin d’un site vitrine pour présenter votre activité, développer
             votre visibilité ou moderniser votre présence en ligne ? Je vous
-            accompagne de la conception à la mise en ligne avec une approche
+            accompagne de la conception à la mise en ligne avec une approche{" "}
             <b>personnalisée, claire et transparente.</b>
           </p>
         </div>
