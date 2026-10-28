@@ -5,12 +5,13 @@ function Portfolio(props) {
   return (
     <div className="portfolio" id="portfolio">
       <h2>Portfolio</h2>
-      {/* <p>Découvrez une sélection de sites et applications que j'ai conçus et développés. Chaque projet met en avant une approche centrée sur la performance, le responsive design, l'expérience utilisateur et la qualité du code.</p> */}
       <p>
-        Découvrez une sélection de sites et applications que j'ai conçus et
-        développés. Ces projets illustrent mon approche du design responsive, de
-        l'expérience utilisateur et du développement frontend.
-      </p>
+        Découvrez mes réalisations de sites vitrines et projets web, conçus avec
+        une attention particulière au design responsive, à l'expérience
+        utilisateur et aux performances. Ces projets de démonstration illustrent
+        les solutions que je peux proposer aux artisans, indépendants et
+        associations.
+      </p>{" "}
       <div className="cards">
         <CardPortfolio
           src="./images/portfolio martin elec.png"

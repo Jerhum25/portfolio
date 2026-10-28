@@ -47,30 +47,6 @@ function APropos(props) {
           </h3>
           <br />
           <br />
-          {/* <p>
-            Fort de {years} années d’expérience à La Poste, j’ai acquis des qualités
-            précieuses : rigueur, autonomie, sens du service et organisation.
-            Aujourd’hui, je mets ces compétences humaines et professionnelles au
-            service de la création de sites web modernes et performants.
-            <br />
-            <br />
-            Développeur web basé à Besançon, je suis spécialisé dans le
-            développement frontend avec React JS et Next JS. Je conçois des interfaces
-            fluides, accessibles et optimisées pour tous les supports. Mon
-            objectif : transformer vos idées en solutions numériques efficaces et
-            sur mesure.
-            <br />
-            <br />
-            Formé sur OpenClassrooms, je maîtrise les technologies HTML, CSS,
-            JavaScript, React JS, Node.js et MongoDB. Je suis également attentif à
-            l’expérience utilisateur (UX) et à l’optimisation SEO dès la
-            conception de chaque projet.
-            <br />
-            <br />
-            Que vous soyez entrepreneur, indépendant ou association, je vous
-            accompagne dans la création ou la refonte de votre site internet avec
-            engagement, réactivité et exigence.
-          </p> */}
           <p>
             Je suis{" "}
             <b>Jérôme Humbert, développeur web frontend basé à Besançon.</b>{" "}

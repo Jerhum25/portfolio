@@ -5,22 +5,11 @@ function Contact(props) {
     <div className="contact" id="contact">
       <h2>Vous avez un projet web ?</h2>
       <p>
-        Création ou refonte de site vitrine pour artisans, indépendants,
-        entrepreneurs et associations.
+        Création et refonte de sites vitrines à Besançon et dans ses environs,
+        pour les artisans, indépendants, entrepreneurs et associations.
       </p>
       <h3>Parlons de votre projet →</h3>
       <div className="coordonnees">
-        {/* <form className="formulaire">
-          <input type="text" className="nom" placeholder="Nom*" />
-          <input type="text" className="prenom" placeholder="Prénom*" />
-          <input type="mail" className="mail" placeholder="Email*" />
-          <input type="phone" className="telephone" placeholder="Téléphone" />
-          <input type="text" className="objet" placeholder="Objet*" />
-          <textarea name="message" id="" placeholder="Message*"></textarea>
-          <p>* Champs obligatoires</p>
-          <button type="submit">Envoyer</button>
-        </form> */}
-
         <div className="mesCoordonnees">
           <a href="mailto:contact@jhdev.fr">
             <i className="far fa-envelope"></i> contact@jhdev.fr
